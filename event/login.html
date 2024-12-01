@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+ body{
+    background-image: url(pexels-pixabay-53594.jpg);
+}
+ul{
+    
+    margin: 0;
+    padding:0;
+    width:100%;
+    overflow: hidden;
+    
+}
+li{
+    list-style-type: none ;
+    float: left;
+    background-color:crimson;
+}
+li a{
+     display:block;
+     color: aliceblue;
+     text-align: center;
+     padding: 20px 80px;
+     text-decoration: none;
+     text-transform: uppercase;
+     overflow: hidden;
+}
+li a:hover{
+    background-color:black;
+}
+form{
+    margin-top: 150px;
+    padding: 50px;
+    background-color:rgba(238, 0, 255, 0.344);
+    border-style: dashed;
+    width:350px;
+    height:250px;
+    border-radius: 20px;
+    overflow:hidden ;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    .button{
+    background-color: blue;
+    color: aliceblue;
+    width: 40%;
+    padding: 10px ;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    font-weight: 700;
+}
+    .button:hover{
+    background-color: chartreuse;
+    color:blue;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="eventmain.html">Home</a></li>
+        <li><a href="paid event.html">Premium events</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="help.html">Help and support</a></li>
+        <li ><a href="login.html">Login</a></li>
+     </ul><br>
+    </form>
+    <center>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="fname"placeholder="enter your name"><br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="*******" name="pname"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="mname">male
+        <input type="radio" name="mname">female<br><br>
+        <label>Date of Birth</label>
+        <input type=date name="gname"><br><br>
+        <label>Country</label>
+        <select>
+        <option>INDIA</option>
+        <option>USA</option>
+        <option>CANADA</option>
+        <option>Other</option>
+        </select><br><br>
+        <button class="button"><a href="eventmain.html">Submit</a></button>
+        <button class="button"><a href="login.html">Reset</a></button>
+    </form>
+    </center>
+</body>
+<footer>
+    <a><center>Copyright 2024 @ Somnath</center></a>
+</footer>
+</html>
